@@ -16,17 +16,17 @@ In case using an M1 or M2 Apple Silicon computer, make sure to follow specific g
 
 ### <em>1. Build the container</em>
 
-```docker build -t linux-cpp-dev .```
+```docker build -t linux-c-dev .```
 
 ### <em>2. Check if the image is present</em>
 
 ```docker images```
 
-You should see a repository with the name **linux-cpp-dev**
+You should see a repository with the name **linux-c-dev**
 
 ### <em>3. Run the image</em>
 
-```docker run -it --rm -v `pwd`:/work linux-cpp-dev```
+```docker run -it --rm -v `pwd`:/work linux-c-dev```
 
 ### <em>4. You should see a linux terminal</em>
 
@@ -36,7 +36,7 @@ It should be a two-wayed shared mounting, so every change should be synced onto 
 
 ### <em>5. Attaching the remote explorer</em>
 
-In the left pane of VSCode open up Remote Explorer and click on linux-cpp-dev container's + icon. 
+In the left pane of VSCode open up Remote Explorer and click on linux-c-dev container's + icon. 
 
 This will open a new VSCode window. 
 
